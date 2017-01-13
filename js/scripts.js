@@ -12,7 +12,7 @@ var guesser = (function(q1Input, q2Input, q3Input, q4Input, q5Input) {
   } else if(q1Input==="startup" && q2Input==="yes" || q4Input=== "no" || q5Input==="rubyrails") {
     (".Ruby").show();
   } else if(q3Input==="yes" || q4Input==="yes" || q5Input==="javaandroid" ) {
-    (".Java").show();
+    (".outputJava").show();
   } else {
 
   };
@@ -27,7 +27,7 @@ var guesser = (function(q1Input, q2Input, q3Input, q4Input, q5Input) {
 
 $(document).ready(function(){
   $("#blank").submit(function(event){
-    $("#output").text(gueser);
+    $("#output").text(guesser);
 
     event.preventDefault();
 
