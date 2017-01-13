@@ -1,7 +1,29 @@
-/*.Ruby, .Java, .CSharp {
+.Ruby, .Java, .CSharp {
   display: none;
-}*/
+}
 
 .jumbotron {
   margin-top: 5px;
+  font-family: 'Quattrocento', serif;
+  text-align: center;
+  background-color: #08770C;
+  color:#fff;
+}
+
+.jumbotron p {
+  text-align: left;
+  font-size: 16px;
+}
+
+img {
+  margin-bottom: 10px;
+}
+
+#output p {
+  font-family: 'Quattrocento', serif;
+  font-size: 16px;
+}
+
+button {
+  margin-top: 15px; 
 }

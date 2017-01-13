@@ -9,7 +9,7 @@ var q5Input = $("input:radio[name=question5]:checked").val();
 var guesser = (function(q1Input, q2Input, q3Input, q4Input, q5Input) {
   if(q1Input === "bigcompany" || q5Input === ("csharpnet")) {
     (".CSharp").show();
-  } else if(q1Input==="startup" && q2Input==="yes" || q4Input=== "no" || q5Input==="rubyrails") {
+  } else if(q1Input==="startup"|| q4Input=== "no" || q5Input==="rubyrails") {
     (".Ruby").show();
   } else if(q3Input==="yes" || q4Input==="yes" || q5Input==="javaandroid" ) {
     (".outputJava").show();
@@ -29,7 +29,9 @@ $(document).ready(function(){
   $("#blank").submit(function(event){
     $("#output").text(guesser);
 
+
     event.preventDefault();
+
 
   });
 
