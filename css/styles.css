@@ -1,3 +1,7 @@
-.outputRuby, .outputJava, .outputCSharp {
+/*.Ruby, .Java, .CSharp {
   display: none;
+}*/
+
+.jumbotron {
+  margin-top: 5px;
 }
