@@ -8,6 +8,7 @@
   text-align: center;
   background-color: #08770C;
   color:#fff;
+  border: thin solid black;
 }
 
 .jumbotron p {
@@ -25,5 +26,5 @@ img {
 }
 
 button {
-  margin-top: 15px; 
+  margin-top: 15px;
 }
