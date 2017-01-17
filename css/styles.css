@@ -2,6 +2,8 @@
   display: none;
   background-color: #FFF377;
   padding: 20px;
+  border: thin solid black;
+  border-radius: 5px;
 }
 
 .jumbotron {
